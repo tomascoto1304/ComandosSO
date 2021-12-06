@@ -62,4 +62,24 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 ## du -h
 - Este comando nos permite obtener el peso de los arcihvos que tengamos.
 
+## file
+- Este comando nos da el formato para un archivo específico.
+
+## df -h
+- Con este comando podemos observar los sistemas de archivos que están en uso.
+`-h`: Se usa solo para formato.
+
+## sudo apt cmatrix
+- Este comando nos transforma la terminal a una matrix (como la película).
+
+## sudo apt neofetch 
+- Este comando nos muestra en la terminal de nuestro sistema características de nuestra computadora como el cpu, gpu, memoria, entre otros.
+
+## mount 
+- Este comando nos permite montar un archivo en cualquier dirección que queramos dentro de nuestro sistema.
+
+
+
+
+
 
