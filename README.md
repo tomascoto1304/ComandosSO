@@ -78,6 +78,13 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 ## mount 
 - Este comando nos permite montar un archivo en cualquier dirección que queramos dentro de nuestro sistema.
 
+## kill 
+- Este es un comando que envía una señal de terminación.
+`kill -9 -1:`Mata todos los procesos posibles y cierra todo.
+
+## ps -aux
+- Con este comando podemos ver todos los procesos que hemos realizado o se han realizado en nuestro sistema.
+
 
 
 
