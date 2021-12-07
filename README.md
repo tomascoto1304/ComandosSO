@@ -4,7 +4,10 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 ## ipaddr
 - Para saber nuestra dirección IP.
 
-## ping8.8.8.8
+## ifconfig
+- Este comando nos enseña la información de la red que seleccionemos.
+
+## ping
 - Con este comando probamos que nuestra internet esté corriendo.
 
 ## sudo apt install
@@ -12,6 +15,18 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 
 ## clear
 - Como lo dice su numbre, _limpia_ la terminal.
+
+## shutdown
+- Con este comando podemos apagar nuestro sistema
+
+## reboot
+- Este comando reinicia nuestro sistema
+
+## cat
+- Este comando nos permite imprimir un archivo de nuestra elección
+
+## nano
+- Con este comando podemos abrir un archivo en la terminal de nuestro sistema
 
 ## whoami
 - Este comando nos indica cual usuario actual.
@@ -34,6 +49,9 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 
 ## sudo apt upgrade
 - Este comando va de la mano con _sudo apt update_, ya que este se encarga de ejecutar las actualizaciones. 
+
+## uname -a 
+- Este comando nos deja imprimir la información del kernel.
 
 ## sudo su
 - Con este comando entramos en modo root, que es el súper usuario.
@@ -65,6 +83,26 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 ## file
 - Este comando nos da el formato para un archivo específico.
 
+## find + _(nombre de un archivo)_
+- Con este comando podemos buscar un archivo en específico en nuestro sistema.
+
+## pdfunite
+- Como lo dice su nombre, este comando une PDFs.
+
+## pdfseparate
+- A diferencia del anterior, este separa los PDFs.
+
+## mkdir
+- Con eate comando podemos crear un directorio.
+`rm -R:`Remueve un directorio
+`rm -Rf:`Hace lo mismo que el acomando anterior, solo que con este se remueve de manera forzada.
+
+## history
+- Este comando nos permite ver los comandos que hemos utilizado en la termninal que estemos usando.
+
+## scp
+- Con este comando podemos trasnferir archivos mediante ssh.
+
 ## df -h
 - Con este comando podemos observar los sistemas de archivos que están en uso.
 `-h`: Se usa solo para formato.
@@ -78,12 +116,62 @@ Comandos vistos y utilizados en el curso de Sistemas Operativos
 ## mount 
 - Este comando nos permite montar un archivo en cualquier dirección que queramos dentro de nuestro sistema.
 
+## wc
+- Con esye comando podemos contar la cantidad de lineas
+`wc -w:`Este comando cuenta la cantidad de palabras.
+`wc -m:`Este cuenta la cantidad de caracteres.
+
+## head
+- Con este comando le ordenamos a nuestro sistema imprimir solo las primeras lineas de el archivo que seleccionemos.
+
+## tail
+- Este comando es igual al anterior, solo que con este indicamos que imprima las últimas líneas.
+
 ## kill 
 - Este es un comando que envía una señal de terminación.
 `kill -9 -1:`Mata todos los procesos posibles y cierra todo.
 
 ## ps -aux
 - Con este comando podemos ver todos los procesos que hemos realizado o se han realizado en nuestro sistema.
+
+_## git clone
+_- Este comando clona un repositorio de GitHub.
+
+# Comandos de Docker:
+Docker es una plataforma creada con el fin de desarrollar, implementar y ejecutar aplicaciones dentro de contenedores.
+
+## docker run
+- ESte comando abre una imagen como si fuera un contenedor.
+`docker run -ti:`Este comando crea una terminal interactiva.
+`docker run --rm:`Como lo indica el rm _(rm = remove)_ remueve un contenedor.
+
+## docker ps
+- Este comando muestra los contenedores que hayamos creado.
+
+## docker info
+- Este comando enseña la información de nuestro sistema
+
+## docker images
+- Este comando nos muestra imagenes.
+
+## docker history
+- En el caso de este comando, nos da el historial de la imagen que seleccionemos.
+
+## docker network ls
+- Este comando nos permite imprimir una lista de redes disponibles.
+
+## docker network create --driver
+- Este comando nos permite crear una nueva red.
+
+## docker find
+- Este comando nos muestra los ficheros existentes.
+
+## docker push
+- Este comando nos permite subir una imagen a _Docker Hub._
+
+## docker pull 
+- Este comando nos permite descargar imagenes desde _Docker Hub._
+
 
 
 
